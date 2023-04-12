@@ -32,7 +32,7 @@ const AllinOne = () => {
                             <div>
                                 <CheckIcon className='w-7 mr-4 text-green-600' />
                             </div>
-                            <div>
+                            <div> 
                                 <h3 className='font-bold text-lg'>Notification</h3>
                                 <p className='text-lg pt-2 pb-4 font-semibold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sit molestias quia ab aspernatur deleniti pariatur commodi nihil repudiandae excepturi.</p>
                             </div>

@@ -18,7 +18,7 @@ const Support = () => {
                     </p>
                 </div>
 
-                    <div className='grid grid-cols-1 lg:grid-cols-3 relative gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20 text-black'>
+                    <div className='grid grid-cols-1 lg:grid-cols-3 gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20 text-black'>
                         <div className='bg-white rounded-xl shadow-2xl'>
                             <div className='p-8'>
                                 <PhoneIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
