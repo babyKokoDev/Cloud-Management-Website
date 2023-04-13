@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,500&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,5 +13,9 @@
         @apply text-white border bg-indigo-600 border-indigo-600
         hover:bg-transparent hover:text-indigo-600 rounded-md
     }
+}
+
+body {
+    font-family: 'Chivo Mono', monospace;
 }
 
