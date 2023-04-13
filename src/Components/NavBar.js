@@ -13,7 +13,7 @@ const NavBar = () => {
     }
 
     const handleColor = () => {
-      if (window.scrollY >= 70){
+      if (window.scrollY >= 90){
         setColor(true)
       }else {
         setColor(false)
@@ -22,7 +22,7 @@ const NavBar = () => {
     window.addEventListener('scroll', handleColor)
 
   return (
-    <div className={color? "w-full h-[80px] drop-shadow-lg z-10 bg-slate-800 text-white fixed" : "w-full h-[80px] drop-shadow-lg z-10 bg-transparent fixed"}>
+    <div className={color? "w-full h-[80px] drop-shadow-lg z-10 bg-slate-800 text-white fixed" : "w-full h-[80px] drop-shadow-lg z-10 bg-zinc-200 fixed"}>
       <div className="px-2 flex justify-between items-center w-full h-full">
         <div className="flex items-center">
           <h1 className="text-3xl font-bold mr-4 sm:text-4xl">BRAND</h1>
